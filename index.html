@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Light Dark Mode</title>
+    <link rel="icon" type="image/png" href="DP.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="theme-switch-wrapper">
+        <span id="toggle-icon">
+            <span id="toggle-text" style="font-size: 20px;">
+                Light Mode
+            </span>
+            <i class="fa-solid fas fa-sun"></i>
+        </span>
+        <label class="theme-switch">
+            <input type="checkbox">
+            <div class="slider round"></div>
+        </label>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="nav">
+        <a href="#home">HOME</a>
+        <a href="#about">CP</a>
+        <a href="#projects">PROJECTS</a>
+        <a href="#contact">CONTACT</a>
+    </nav>
+    <!-- home section -->
+    <section id="home">
+        <div class="title-group">
+            <h1>Hello There,</h1>
+            <h3>I am Virender Singh, <br>First Year M.C.A Student at NIT-Trichy</h2>
+        </div>
+    </section>
+    <!-- about section -->
+
+    <section id="about">
+        <h1>Competetive Profiles</h1>
+        <div id="text-box" class="cp">
+            <a class="codechef " href = "https://codechef.com/users/viren_der">
+                <span><img src="https://cdn.codechef.com/images/cc-logo.svg" id="cc-logo" alt="Codechef"></span>
+                <span id="cc-star" class="txt" style="font-size: 2em; "></span>
+                <span id="cc-rating" style="font-size: 2em;"></span>
+            </a>
+            <a class="codeforces " href = "https://codeforces.com/profile/0x67">
+                <span><img src="https://codeforces.org/s/66300/images/codeforces-logo-with-telegram.png" id="cc-logo" alt="Codeforces"></span>
+                <span id="cf-tag" style="font-size: 2em;"></span>
+                <span id="cf-rating" style="font-size: 2em;"></span>
+            </a>
+        </div>
+
+    </section>
+    <!-- project section -->
+
+    <section id="projects">
+        <h1 style="padding-bottom: 0.4em;">Projects</h1>
+        <div class="project-container">
+            <div class="image-container">
+                <h2> <a href="https://mall-line.herokuapp.com/"> E-Commerce Site</a></h2>
+                <img src="img/ecommerce_light.svg" alt="E-Commerce" id="image1">
+            </div>
+            <div class="image-container">
+                <h2> <a href="https://shaun-0.github.io/Infinity-Scroll/">Infinite Scroll</a> </h2>
+                <img src="img/infinite_light.svg" alt="Image" id="image2">
+            </div>
+            <div class="image-container">
+                <h2> <a href="https://shaun-0.github.io/joke-teller/"> Joke Teller</a></h2>
+                <img src="img/bot_light.svg" alt="Bot" id="image3">
+            </div>
+        </div>
+    </section>
+    <!-- contact section -->
+    
+    <section id="contact">
+        <h1 style="padding-bottom: 0.4em;">Contact</h1>
+        <div class="social-icons">
+            <a href="https://github.com/shaun-0"><i class="fa-brands fa-github"></i></a>
+            <a href="https://linkedin.com/in/virendersingh12"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="mailto:contactenigmacode@gmail.com"><i class="fa-regular fa-envelope"></i></a>
+            <a href="https://instagram.com/shaun0x67"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://facebook.com/virender.singh.2000"><i class="fa-brands fa-facebook"></i></a>
+        </div>
+     
+    </section>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+</html>
